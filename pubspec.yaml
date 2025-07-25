@@ -1,0 +1,37 @@
+name: nn
+description: "Nextcloud Notes client written in Flutter."
+publish_to: 'none'
+version: 0.1.0
+
+flutter_launcher_icons:
+  android: "launcher_icon"   # The name of the icon file in Android resources
+  ios: true                  # Generate icons for iOS
+  image_path: "assets/icon.png" # Path to your source icon
+  min_sdk_android: 21          # Optional: ensures adaptive icons are generated correctly
+
+environment:
+  sdk: ^3.8.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.1
+  provider: ^6.1.2
+  flutter_secure_storage: ^9.2.2
+  sqflite: ^2.3.3+1
+  path: ^1.9.0
+  google_fonts: ^6.2.1
+  undo: ^1.5.0
+  shared_preferences: ^2.2.3
+  markdown_widget: ^2.3.2
+  flutter_highlight: ^0.7.0
+  highlight: ^0.7.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.14.4
+
+flutter:
+  uses-material-design: true
